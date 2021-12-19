@@ -1,0 +1,131 @@
+/* Mobie & tablet */
+@media (max-width: 1023px) {
+    .header {
+        justify-content: space-around;
+    }
+    .product-1 {
+        display: block;
+        
+    }
+    .product-1-img {
+        display: flex;
+        justify-content: center;
+    }
+    .product-1-content {
+        text-align: center;
+    }
+    .product-1-form input {
+        width: 70%;
+        height: 100%;
+    }
+    .product-1-form button {
+        height: 100%;
+    }
+    .product-1-form {
+        height: 56px;
+    }
+    .product-2 {
+        flex-direction: column-reverse;
+    }
+    .product-2-img {
+        display: flex;
+        justify-content: center;
+    }
+    .product-2-content {
+        text-align: center;
+    }
+    .footer_category {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+ }
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 15px;
+    }
+    .header_nav-list {
+        padding: 0;
+    }
+    .product-1-form input {
+        width: 75%;
+    }
+}
+/* Mobie */
+@media (max-width: 739px){
+    .header {
+        padding: 0 12px;
+    }
+    .header_nav,
+    .header_login {
+        display: none;
+    }
+    .header_btn {
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        color: #3C64B1;
+    }
+    .slogan_title {
+        font-size: 32px;
+        word-wrap: break-word;
+    }
+    .slogan_title p {
+        font-size: 18px;
+    }
+    .slogan_content p {
+        font-size: 12px;
+        padding: 0 48px;
+        width: 400px;
+        padding-left: 154px;
+    }
+    .header_nav-list-mb {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(44, 35, 35, 0.9);
+        position: fixed;
+        left: 0;
+        right: 0;
+        list-style: none;
+        justify-items: center;
+        line-height: 88px;
+        margin: 0;
+        z-index: 99;
+        padding-bottom: 20px;
+        animation: example 0.5s linear;
+    }
+    .header_nav-list-mb.open {
+        display: flex;
+    }
+    .header_nav-item-text {
+        color: white;
+    }
+    .icon-close {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+    }
+    .header_login-login {
+        line-height: 80px;
+        font-size: 18px;
+        color: white;
+    }
+    .target_discovery {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 25px 0 0 0;
+        margin: 0;
+    }
+    .target_discovery-item {
+        box-shadow:0 0 2px 0 #888888;
+    }
+    .product-1-form input {
+        width: 65%;
+    }
+}
